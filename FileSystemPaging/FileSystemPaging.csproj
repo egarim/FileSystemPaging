@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+		<PackageReference Include="NUnit" Version="3.13.3" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+		<PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+		<PackageReference Include="coverlet.collector" Version="3.2.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DevExpress.Persistent.Base" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.ExpressApp.Blazor" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.Document.Processor" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.Pdf.Core" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.Pdf.Drawing" Version="23.1.2-beta" />
+		<PackageReference Include="DevExpress.ExpressApp.FileAttachment.Blazor" Version="23.1.2-beta" />
+	</ItemGroup>
+</Project>
